@@ -1,11 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2024-01-04T05:59:43.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1eRVg-kDHzqrOOYwCajH" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-04T06:12:46.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="t97K7dFEmvMxxQGapSwb" version="22.1.16" type="github">
   <diagram name="第 1 页" id="g53INEZvCoYS9vYzAf5S">
-    <mxGraphModel dx="677" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1431" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-6" value="" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="50" y="-240" width="510" height="450" as="geometry" />
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-37" value="&lt;h1 style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;销毁&lt;/span&gt;&lt;/h1&gt;" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=#ff0000;align=right;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="-370" width="380" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2Z9o2Xpiy1UtpyyYw2TX-35" target="2Z9o2Xpiy1UtpyyYw2TX-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-35" value="" style="ellipse;whiteSpace=wrap;html=1;gradientColor=none;dashed=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="635" y="-460" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-6" value="" style="ellipse;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=#4dff00;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-250" width="520" height="460" as="geometry" />
         </mxCell>
         <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-4" value="" style="shape=tape;whiteSpace=wrap;html=1;strokeWidth=2;size=0.19;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="310" y="570" width="100" height="65" as="geometry" />
@@ -26,10 +35,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-9" value="调用对应的&lt;br&gt;Aware接口方法" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="160" y="-80" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="-90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2Z9o2Xpiy1UtpyyYw2TX-11" target="2Z9o2Xpiy1UtpyyYw2TX-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-11" value="BeanPostProcessor&lt;br&gt;Before(前置)处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-13" value="&lt;div class=&quot;lake-content&quot;&gt;@PostConstruct&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;处理&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="245" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2Z9o2Xpiy1UtpyyYw2TX-15" target="2Z9o2Xpiy1UtpyyYw2TX-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-15" value="&lt;div class=&quot;lake-content&quot;&gt;实现InitizlizingBean&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;接口的Bean进行处理&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.575;exitY=-0.017;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2Z9o2Xpiy1UtpyyYw2TX-13" target="2Z9o2Xpiy1UtpyyYw2TX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-24" value="&lt;div class=&quot;lake-content&quot;&gt;自定义init-method&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;方法的执行&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="2Z9o2Xpiy1UtpyyYw2TX-28" target="2Z9o2Xpiy1UtpyyYw2TX-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-28" value="BeanPostProcessor&lt;br&gt;after(后置)处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="2Z9o2Xpiy1UtpyyYw2TX-29" target="2Z9o2Xpiy1UtpyyYw2TX-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-34" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2Z9o2Xpiy1UtpyyYw2TX-29" target="2Z9o2Xpiy1UtpyyYw2TX-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-29" value="注册Destruction回调" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;glass=1;shadow=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-31" value="​ 为了&lt;span style=&quot;box-sizing: border-box; outline: 0px; font-weight: 700; overflow-wrap: break-word; color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-variant-ligatures: no-common-ligatures; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;方便对象的销毁&lt;/span&gt;&lt;span style=&quot;color: rgb(77, 77, 77); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-size: 16px; font-variant-ligatures: no-common-ligatures; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;，在此处调用注销的回调接口，方便对象进行销毁操作&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="310" y="-490" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-33" value="此时的Bean&lt;br&gt;可以开始准备使用" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="2Z9o2Xpiy1UtpyyYw2TX-36" target="2Z9o2Xpiy1UtpyyYw2TX-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-36" value="DisposableBean&lt;br&gt;处理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2Z9o2Xpiy1UtpyyYw2TX-38" value="自定义&lt;br&gt;destory-method&lt;br&gt;处理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
